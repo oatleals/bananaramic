@@ -1,0 +1,317 @@
+	/* FOR ABOUT AND FEATS PAGE */
+
+	body{
+		background: url(banana-white.jpg);
+		position: relative;
+		margin: 0px;
+		overflow: hidden;
+    	top: 0;
+    	left: 0;
+    	right:0; 
+	}
+
+	#menu{
+		font-family: GROBOLD;
+		text-decoration: none;
+		position: relative;
+	}
+
+	.content h2{
+		font-family: GROBOLD;
+		color: white;
+		transform: translate(29%,30%);
+		font-size: 50px;
+		margin-bottom: -10px;
+		opacity: 0.75;
+
+	}
+
+	.intro {
+		width: 700px;
+ 	 	height: 100px;
+ 	 	font-family: futura;
+ 	 	font-size: 30px;
+  		box-sizing: border-box;
+  		text-align: center;
+  		transform: translate(55%,10%);
+  		opacity: 0.75;
+  		text-shadow: -0.5px 0.5px white;
+	}
+
+	.letter{
+		text-align: center;
+		font-size: 40px;
+		display: inline-block;
+		padding-right: 50px;
+		padding-top: 5%;
+		margin: -20px;
+
+	}
+
+	.facts{
+		transform: translate(42%,100%);
+		font-family: GROBOLD;
+		opacity: 0.6;
+		color: white;
+		padding-top: 15px;
+
+
+	}
+
+	.P{
+		text-align: center;
+		visibility: hidden;
+		font-size: 40px;
+		display: inline-block;
+		padding-right: 50px;
+		padding-top: 5%;
+		margin: -20px;
+		animation: fade 4s infinite 400ms;
+
+	}	
+
+	.phacts{ 
+		text-align: center;
+		transform: translate(2%, 125%);
+		font-family: futura;
+		font-size: 30px;
+		opacity: 0.75;
+
+	}
+
+	.phacts p{
+		display: inline;
+		padding-right: 50px;
+		color: white;
+		text-shadow: -3px 2px rgb(157,148,71);
+
+	}
+	.left-side{
+		float: left;
+	}
+
+	.left-side li{
+		text-decoration: none;
+		padding-top: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.right-side{
+		float: right;
+		overflow: visible;
+	}
+
+	.right-side li{
+		text-transform: none;
+		display: inline-block;
+		position: relative;
+		padding-right: 150px;
+		padding-left: 90px;
+		top: -70px;
+	}
+
+	header{
+		background-color: white;
+		height: 90px;
+		position: sticky;
+		opacity: 0.5;
+		z-index: -1;
+
+	}
+
+	.left-side img{
+		position: absolute;
+		top: -13px;
+		left: 30px;
+		width: 125px;
+		height: 125px;
+	}
+
+	.right-side img{
+		position: absolute;
+		left: -10px;
+		width: 175px;
+		height: 175px;
+	}
+
+	footer{
+		background-color: clear;
+		height: 50px;
+		position: relative;
+		opacity: 0.5;
+		padding-top: 0px;
+		bottom: -210px;
+		text-align: center;
+
+	}
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 1100px){
+
+	.left-side li{
+		text-decoration: none;
+		padding-top: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.right-side li{
+		text-transform: none;
+		display: inline-block;
+		position: relative;
+		padding-right: 90px;
+		padding-left: 54px;
+		top: -50px;
+	}
+
+	header{
+		background-color: white;
+		height: 60px;
+		position: sticky;
+	}
+
+	.left-side img{
+		position: absolute;
+		top: -20px;
+		left: -20px;
+		width: 150px;
+		height: 150px;
+
+	}
+
+	.right-side img{ position: absolute;left: -10px;
+		width: 105px;
+		height: 105px;
+	}
+
+	}
+
+
+	@media(max-width: 700px){
+
+	.left-side li{
+		text-decoration: none;
+		padding-top: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.right-side li{
+		text-transform: none;
+		display: inline-block;
+		position: relative;
+		padding-right: 90px;
+		padding-left: 25px;
+		top: -50px;
+	}
+
+	header{
+		background-color: white;
+		height: 60px;
+		position: sticky;
+
+	}
+
+	.left-side img{
+		position: absolute;
+		top: -20px;
+		left: -20px;
+		width: 150px;
+		height: 150px;
+
+	}
+
+	.right-side img{ position: absolute;left: -10px;
+		width: 105px;
+		height: 105px;
+	}
+
+
+	}
+
+	@media (max-width: 585px){
+
+
+	.right-side li{
+		text-transform: none;
+		display: inline-block;
+		position: relative;
+		padding-right: 90px;
+		padding-left: 25px;
+		top: -110px;
+	}
+
+	header{
+		background-color: white;
+		height: 50px;
+		position: sticky;
+	}
+
+	.left-side img{
+		position: absolute;
+		top: -5px;
+		left: -20px;
+		width: 100px;
+		height: 100px;
+
+	}
+
+	.right-side img{ position: absolute;left: -10px;
+		width: 105px;
+		height: 105px;
+	}
+
+
+	}
+	}
+
+
+
+
+/** KEYFRAMES/ANIMATION **/
+.letter:nth-child(1){
+	animation: fade 4s infinite 200ms ease-in;
+}
+
+.letter:nth-child(2){
+	animation: fade 4s infinite 400ms ease-in;
+}
+
+.letter:nth-child(3){
+	animation: fade 4s infinite 600ms ease-in;
+}
+
+.letter:nth-child(4){
+	animation: fade 4s infinite 800ms ease-in;
+}
+
+.letter:nth-child(5){
+	animation: fade 4s infinite 1000ms ease-in;
+}
+
+.letter:nth-child(6){
+	animation: fade 4s infinite 1200ms ease-in;
+}
+
+.letter:nth-child(7){
+	animation: fade 4s infinite 1400ms ease-in;
+}
+
+@keyframes fade{
+50%{
+	opacity: 0.3;
+	}
+}
+
+

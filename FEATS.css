@@ -1,0 +1,302 @@
+	body{
+		background: url(banana-chopped.jpg);
+		position: relative;
+		margin: 0px;
+		mar
+
+	}
+
+	#menu{
+		font-family: GROBOLD;
+		text-decoration: none;
+		position: relative;
+	}
+
+	.content{
+		position: relative;
+		font-family: futura;
+		font-size: 20px;
+		color: white;
+		opacity: 1;
+
+
+	}
+
+	.content img{
+		width: 150px;
+		height: 150px;
+		padding-bottom: -100px;
+	}
+
+	.feats{
+		width: 700px;
+		box-sizing: border-box;
+		position: absolute;
+		transform: translate(15%,-90%);
+
+	}
+
+	.feats h4{
+		padding-bottom: 90px;
+		text-shadow: -3px 2px rgb(157,148,71);
+	}
+
+	.starpocket{
+		width: 10px;
+		box-sizing: border-box;
+
+	}
+	.andCounting{
+		width: 90%;
+		padding-bottom: 500px;
+		text-align: right;
+		position: absolute;
+
+	}
+
+	.andCounting h1{
+		bottom: 300px;
+		box-sizing: border-box;
+		transform: translate(-20%,-1000%);
+
+	}
+
+	.P{
+		visibility: hidden;
+	}
+
+	.andCounting h3{
+		bottom: 300px;
+		box-sizing: border-box;
+		transform: translate(-10%,-3100%);
+
+	}
+
+	.andCounting h2{
+		bottom: 300px;
+		box-sizing: border-box;
+		transform: translate(0%,-3600%);
+	}
+
+	.left-side{
+		float: left;
+	}
+
+	.left-side li{
+		text-decoration: none;
+		padding-top: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.right-side{
+		float: right;
+		overflow: visible;
+	}
+
+	.right-side li{
+		text-transform: none;
+		display: inline-block;
+		position: relative;
+		padding-right: 150px;
+		padding-left: 90px;
+		top: -70px;
+	}
+
+	header{
+		background-color: white;
+		height: 90px;
+		position: sticky;
+		opacity: 0.5;
+		z-index: -1;
+	}
+
+	.left-side img{
+		position: absolute;
+		top: -13px;
+		left: 30px;
+		width: 125px;
+		height: 125px;
+	}
+
+	.right-side img{
+		position: absolute;
+		left: -10px;
+		width: 175px;
+		height: 175px;
+	}
+
+
+	footer{
+		background-color: clear;
+		height: 50px;
+		position: relative;
+		opacity: 0.5;
+		font-family: times new roman;
+		font-size: 15px;
+		padding-top: 0px;
+		bottom: -75px;
+		text-align: center;
+
+	}
+
+
+/** KEYFRAMES **/
+
+.dot:nth-child(1){
+	animation: fadeDot 3s 200ms ease-in;
+}
+
+.dot:nth-child(2){
+	animation: fadeDot 3s 400ms ease-in;
+}
+
+.dot:nth-child(3){
+	animation: fadeDot 3s 600ms ease-in;
+}
+
+.dot:nth-child(4){
+	animation: fadeDot 3s 800ms ease-in;
+}
+
+.dot:nth-child(5){
+	animation: fadeDot 3s 10s00ms ease-in;
+}
+
+@keyframes fade{
+50%{
+	opacity: 0.3;
+	}
+}
+
+@keyframes fadeDot{
+	from{
+		opacity: 0;
+	}
+
+	to{
+		opacity: 1;
+	}
+}
+
+
+/* Responsive */
+
+	@media only screen and (max-width: 1100px){
+
+	.left-side li{
+		text-decoration: none;
+		padding-top: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.right-side li{
+		text-transform: none;
+		display: inline-block;
+		position: relative;
+		padding-right: 90px;
+		padding-left: 54px;
+		top: -50px;
+	}
+
+	header{
+		background-color: white;
+		height: 60px;
+		position: sticky;
+	}
+
+	.left-side img{
+		position: absolute;
+		top: -20px;
+		left: -20px;
+		width: 150px;
+		height: 150px;
+
+	}
+
+	.right-side img{ position: absolute;left: -10px;
+		width: 105px;
+		height: 105px;
+	}
+
+	}
+
+
+	@media(max-width: 700px){
+
+	.left-side li{
+		text-decoration: none;
+		padding-top: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.right-side li{
+		text-transform: none;
+		display: inline-block;
+		position: relative;
+		padding-right: 90px;
+		padding-left: 25px;
+		top: -50px;
+	}
+
+	header{
+		background-color: white;
+		height: 60px;
+		position: sticky;
+
+	}
+
+	.left-side img{
+		position: absolute;
+		top: -20px;
+		left: -20px;
+		width: 150px;
+		height: 150px;
+
+	}
+
+	.right-side img{ position: absolute;left: -10px;
+		width: 105px;
+		height: 105px;
+	}
+
+
+	}
+
+	@media (max-width: 585px){
+
+
+	.right-side li{
+		text-transform: none;
+		display: inline-block;
+		position: relative;
+		padding-right: 90px;
+		padding-left: 25px;
+		top: -110px;
+	}
+
+	header{
+		background-color: white;
+		height: 50px;
+		position: sticky;
+	}
+
+	.left-side img{
+		position: absolute;
+		top: -5px;
+		left: -20px;
+		width: 100px;
+		height: 100px;
+
+	}
+
+	.right-side img{ position: absolute;left: -10px;
+		width: 105px;
+		height: 105px;
+	}
+
+
+	}
+	}
